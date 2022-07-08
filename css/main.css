@@ -1,0 +1,61 @@
+@import url(./reset.css);
+body {
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 158px;
+    height: 35.33px;
+    font-size: 32px;
+    font-weight: 600;
+    gap: 15px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 48px;
+}
+
+.nav__link {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f3443;
+}
+
+.nav__button {
+    width: 136px;
+    padding: 12px 24px;
+    background-color: #0f3443;
+    border-radius: 42px;
+    text-align: center;
+}
+
+.nav__button::after {
+    content: "";
+    background-color: aqua;
+}
+
+.nav__button__text {
+    color: #fff;
+}
