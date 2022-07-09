@@ -1,2 +1,4 @@
-"# Korna" 
-https://xypxzy.github.io/Korna/
+# Korna #
+
+
+[Посмотреть результат](https://xypxzy.github.io/Korna/)
